@@ -1,0 +1,18 @@
+2022-12-30 16:34:51,036 [INFO] 127.0.0.1 - - [30/Dec/2022 16:34:51] "GET /api/posts HTTP/1.1" 200 -
+2022-12-30 16:36:01,576 [INFO] 127.0.0.1 - - [30/Dec/2022 16:36:01] "GET /api/posts/2 HTTP/1.1" 200 -
+2022-12-30 16:36:02,133 [INFO] 127.0.0.1 - - [30/Dec/2022 16:36:02] "GET / HTTP/1.1" 200 -
+2022-12-30 16:36:02,325 [INFO] 127.0.0.1 - - [30/Dec/2022 16:36:02] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-12-30 16:36:02,330 [INFO] 127.0.0.1 - - [30/Dec/2022 16:36:02] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-12-30 16:36:02,331 [INFO] 127.0.0.1 - - [30/Dec/2022 16:36:02] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-12-30 16:36:06,622 [INFO] 127.0.0.1 - - [30/Dec/2022 16:36:06] "GET /api/posts/2 HTTP/1.1" 200 -
+2022-12-30 16:36:10,290 [INFO] 127.0.0.1 - - [30/Dec/2022 16:36:10] "GET /api/posts/8 HTTP/1.1" 200 -
+2022-12-30 19:42:33,336 [INFO] 127.0.0.1 - - [30/Dec/2022 19:42:33] "GET /api/posts/2 HTTP/1.1" 200 -
+2022-12-30 19:43:04,460 [INFO] 127.0.0.1 - - [30/Dec/2022 19:43:04] "GET /api/posts/2 HTTP/1.1" 200 -
+2022-12-30 19:43:06,072 [INFO] 127.0.0.1 - - [30/Dec/2022 19:43:06] "GET /api/posts/2 HTTP/1.1" 200 -
+2022-12-30 19:43:24,846 [INFO]  * Detected change in 'C:\\Users\\user\\PycharmProjects\\skypro\\CW3_1\\app.py', reloading
+2022-12-30 19:43:30,776 [INFO] 127.0.0.1 - - [30/Dec/2022 19:43:30] "GET /api/posts/8 HTTP/1.1" 200 -
+2022-12-30 19:43:53,594 [INFO]  * Detected change in 'C:\\Users\\user\\PycharmProjects\\skypro\\CW3_1\\app.py', reloading
+2022-12-30 20:45:22,942 [INFO] 127.0.0.1 - - [30/Dec/2022 20:45:22] "GET /api/posts HTTP/1.1" 200 -
+2022-12-30 20:46:30,631 [INFO]  * Detected change in 'C:\\Users\\user\\PycharmProjects\\skypro\\CW3_1\\main.py', reloading
+2022-12-30 20:48:07,006 [INFO] 127.0.0.1 - - [30/Dec/2022 20:48:07] "GET /api/posts HTTP/1.1" 200 -
+2022-12-30 20:49:39,998 [INFO]  * Detected change in 'C:\\Users\\user\\PycharmProjects\\skypro\\CW3_1\\main_test.py', reloading
