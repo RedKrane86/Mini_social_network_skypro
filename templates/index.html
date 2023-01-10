@@ -49,7 +49,7 @@
           <img src="{{ post.pic }}" alt="" width="348" class="poster__post-img">
         </a>
 
-        <p class="post__descr">{{ post.content }}</p>
+        <p class="post__descr">{{ post.content | truncate(50) }}</p>
         <div class="post__post-info">
           <div class="post__counter">
             <img src="static/img/eye.png" alt="" class="post__counter-icon" width="26">

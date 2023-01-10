@@ -16,3 +16,64 @@
 2022-12-30 20:46:30,631 [INFO]  * Detected change in 'C:\\Users\\user\\PycharmProjects\\skypro\\CW3_1\\main.py', reloading
 2022-12-30 20:48:07,006 [INFO] 127.0.0.1 - - [30/Dec/2022 20:48:07] "GET /api/posts HTTP/1.1" 200 -
 2022-12-30 20:49:39,998 [INFO]  * Detected change in 'C:\\Users\\user\\PycharmProjects\\skypro\\CW3_1\\main_test.py', reloading
+2023-01-10 15:53:19,069 [WARNING]  * Debugger is active!
+2023-01-10 15:53:19,074 [INFO]  * Debugger PIN: 460-922-052
+2023-01-10 15:53:25,387 [INFO] 127.0.0.1 - - [10/Jan/2023 15:53:25] "GET / HTTP/1.1" 200 -
+2023-01-10 15:53:25,629 [INFO] 127.0.0.1 - - [10/Jan/2023 15:53:25] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-10 15:53:25,630 [INFO] 127.0.0.1 - - [10/Jan/2023 15:53:25] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-10 15:53:25,632 [INFO] 127.0.0.1 - - [10/Jan/2023 15:53:25] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-10 15:53:38,245 [INFO] 127.0.0.1 - - [10/Jan/2023 15:53:38] "GET / HTTP/1.1" 200 -
+2023-01-10 15:53:38,274 [INFO] 127.0.0.1 - - [10/Jan/2023 15:53:38] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-10 15:53:38,293 [INFO] 127.0.0.1 - - [10/Jan/2023 15:53:38] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-10 15:53:38,297 [INFO] 127.0.0.1 - - [10/Jan/2023 15:53:38] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-10 15:53:39,030 [INFO] 127.0.0.1 - - [10/Jan/2023 15:53:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-01-10 15:53:42,398 [INFO] 127.0.0.1 - - [10/Jan/2023 15:53:42] "GET /users/johnny HTTP/1.1" 200 -
+2023-01-10 15:53:42,413 [INFO] 127.0.0.1 - - [10/Jan/2023 15:53:42] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-10 15:53:42,424 [INFO] 127.0.0.1 - - [10/Jan/2023 15:53:42] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-10 15:53:42,426 [INFO] 127.0.0.1 - - [10/Jan/2023 15:53:42] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-10 15:53:47,102 [INFO] 127.0.0.1 - - [10/Jan/2023 15:53:47] "GET /posts/2 HTTP/1.1" 200 -
+2023-01-10 15:53:47,122 [INFO] 127.0.0.1 - - [10/Jan/2023 15:53:47] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-10 15:53:47,133 [INFO] 127.0.0.1 - - [10/Jan/2023 15:53:47] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-10 15:53:47,133 [INFO] 127.0.0.1 - - [10/Jan/2023 15:53:47] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-10 15:54:00,801 [INFO] 127.0.0.1 - - [10/Jan/2023 15:54:00] "GET /users/leo HTTP/1.1" 200 -
+2023-01-10 15:54:00,817 [INFO] 127.0.0.1 - - [10/Jan/2023 15:54:00] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-10 15:54:00,845 [INFO] 127.0.0.1 - - [10/Jan/2023 15:54:00] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-10 15:54:00,846 [INFO] 127.0.0.1 - - [10/Jan/2023 15:54:00] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-10 15:54:14,975 [INFO] 127.0.0.1 - - [10/Jan/2023 15:54:14] "[33mGET /api HTTP/1.1[0m" 404 -
+2023-01-10 15:54:14,989 [INFO] 127.0.0.1 - - [10/Jan/2023 15:54:14] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-10 15:54:29,573 [INFO] 127.0.0.1 - - [10/Jan/2023 15:54:29] "GET /api/posts HTTP/1.1" 200 -
+2023-01-10 15:54:38,150 [INFO] 127.0.0.1 - - [10/Jan/2023 15:54:38] "GET /api/posts/3 HTTP/1.1" 200 -
+2023-01-10 15:55:53,247 [INFO]  * Detected change in 'C:\\Users\\user\\PycharmProjects\\skypro\\CW3_1\\run.py', reloading
+2023-01-10 15:55:53,768 [WARNING]  * Debugger is active!
+2023-01-10 15:55:53,770 [INFO]  * Debugger PIN: 460-922-052
+2023-01-10 15:55:55,670 [INFO] 127.0.0.1 - - [10/Jan/2023 15:55:55] "GET / HTTP/1.1" 200 -
+2023-01-10 15:55:55,732 [INFO] 127.0.0.1 - - [10/Jan/2023 15:55:55] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-01-10 15:55:55,774 [INFO] 127.0.0.1 - - [10/Jan/2023 15:55:55] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-01-10 15:55:55,787 [INFO] 127.0.0.1 - - [10/Jan/2023 15:55:55] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2023-01-10 16:15:59,809 [INFO]  * Detected change in 'C:\\Users\\user\\PycharmProjects\\skypro\\CW3_1\\tests\\utils_test.py', reloading
+2023-01-10 16:16:00,271 [WARNING]  * Debugger is active!
+2023-01-10 16:16:00,275 [INFO]  * Debugger PIN: 460-922-052
+2023-01-10 16:18:01,249 [INFO]  * Detected change in 'C:\\Users\\user\\PycharmProjects\\skypro\\CW3_1\\tests\\api_test.py', reloading
+2023-01-10 16:18:01,596 [WARNING]  * Debugger is active!
+2023-01-10 16:18:01,598 [INFO]  * Debugger PIN: 460-922-052
+2023-01-10 16:19:23,046 [INFO]  * Detected change in 'C:\\Users\\user\\PycharmProjects\\skypro\\CW3_1\\tests\\utils_test.py', reloading
+2023-01-10 16:19:23,434 [WARNING]  * Debugger is active!
+2023-01-10 16:19:23,436 [INFO]  * Debugger PIN: 460-922-052
+2023-01-10 16:22:22,705 [INFO]  * Detected change in 'C:\\Users\\user\\PycharmProjects\\skypro\\CW3_1\\tests\\utils_test.py', reloading
+2023-01-10 16:22:23,150 [WARNING]  * Debugger is active!
+2023-01-10 16:22:23,152 [INFO]  * Debugger PIN: 460-922-052
+2023-01-10 16:28:57,935 [INFO]  * Detected change in 'C:\\Users\\user\\PycharmProjects\\skypro\\CW3_1\\tests\\utils_test.py', reloading
+2023-01-10 16:28:58,345 [WARNING]  * Debugger is active!
+2023-01-10 16:28:58,348 [INFO]  * Debugger PIN: 460-922-052
+2023-01-10 16:29:57,316 [INFO]  * Detected change in 'C:\\Users\\user\\PycharmProjects\\skypro\\CW3_1\\tests\\utils_test.py', reloading
+2023-01-10 16:29:57,691 [WARNING]  * Debugger is active!
+2023-01-10 16:29:57,694 [INFO]  * Debugger PIN: 460-922-052
+2023-01-10 16:30:11,943 [INFO]  * Detected change in 'C:\\Users\\user\\PycharmProjects\\skypro\\CW3_1\\tests\\utils_test.py', reloading
+2023-01-10 16:30:12,345 [WARNING]  * Debugger is active!
+2023-01-10 16:30:12,348 [INFO]  * Debugger PIN: 460-922-052
+2023-01-10 16:31:47,492 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-10 16:31:47,492 [INFO] [33mPress CTRL+C to quit[0m
+2023-01-10 16:31:47,493 [INFO]  * Restarting with stat
+2023-01-10 16:31:47,762 [WARNING]  * Debugger is active!
+2023-01-10 16:31:47,766 [INFO]  * Debugger PIN: 460-922-052

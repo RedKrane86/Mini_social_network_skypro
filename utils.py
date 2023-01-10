@@ -28,13 +28,14 @@ class PostsHandler:
         Вызывает ошибу 'ValueError', если такого пользователя нет
         """
         posts = []
-        try:
-            for line in self.get_posts_all():
-                if user_name.lower() in line['poster_name'].lower():
-                    posts.append(line)
-            return posts
-        except ValueError:
-            return f'Пользователя "{user_name}" не существует'
+        user_name_list = []
+        for line in self.get_posts_all():
+            if user_name.lower() in line['poster_name'].lower():
+                posts.append(line)
+                user_name_list.append(line['poster_name'])
+        if user_name.lower() not in user_name_list:
+            raise ValueError(f'Пользователя {user_name} не существует')
+        return posts
 
     def get_posts_by_pk(self, pk):
         """
@@ -52,13 +53,14 @@ class PostsHandler:
         Вызывает ошибу 'ValueError', если такого поста нет
         """
         comments = []
-        try:
-            for line in self.get_comments_all():
-                if int(post_id) == line['post_id']:
-                    comments.append(line)
-            return comments
-        except ValueError:
-            return f'Поста не существует'
+        post_id_count = 0
+        for line in self.get_comments_all():
+            if int(post_id) == line['post_id']:
+                comments.append(line)
+                post_id_count = int(post_id)
+        if post_id_count == 0:
+            raise ValueError(f'Поста не существует')
+        return comments
 
     def search_for_posts(self, query):
         """
