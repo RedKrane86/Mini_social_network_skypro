@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 WorkingDirectory=/home/dzhuravlev/skypro_cw3
-ExecStart=/home/dzhuravlev/skypro_cw3/venv/bin/python run.py
+ExecStart=/home/dzhuravlev/skypro_cw3/venv/bin/python -m gunicorn run:app -b 0.0.0.0:26000
 
 [Install]
 WantedBy=multi-user.target
