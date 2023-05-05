@@ -9,6 +9,6 @@ jobs:
       - name: build
         run: docker build -t redkrane/skyprogram:$GITHUB_REF_NAME-$GITHUB_RUN-ID .
       - name: login
-        run: docker login -u ${{ DOCKER_USERNAME }} -p ${{ DOCKER_TOKEN }}
+        run: echo ${{ DOCKER_TOKEN }} | docker login -u ${{ DOCKER_USERNAME }} --password-stdin
       - name: push
         run: docker push redkrane/skyprogram:$GITHUB_REF_NAME-$GITHUB_RUN-ID
