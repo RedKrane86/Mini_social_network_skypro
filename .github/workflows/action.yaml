@@ -7,11 +7,11 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
       - name: build
-        run: docker build -t redkrane/skyprogram:$GITHUB_REF_NAME-$GITHUB_RUN-ID .
+        run: docker build -t redkrane/skyprogram:$GITHUB_REF_NAME-$GITHUB_RUN_ID .
       - name: login
         run: echo ${{ secrets.DOCKER_TOKEN }} | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
       - name: push
-        run: docker push redkrane/skyprogram:$GITHUB_REF_NAME-$GITHUB_RUN-ID
+        run: docker push redkrane/skyprogram:$GITHUB_REF_NAME-$GITHUB_RUN_ID
   deploy:
     needs: build_and_push
     runs-on: ubuntu-latest
